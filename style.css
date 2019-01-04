@@ -1,0 +1,263 @@
+
+body
+{
+	background-color: lightgrey;
+margin: 0;
+padding: 0;
+}
+section{
+	background-image: url('images/program.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 400px;
+	top: 0;
+	max-height: 500px;
+	width: 100%;
+
+}
+.statistics{
+	background-color: white;
+	padding-top:80px;
+	padding-bottom: 80px;
+	color: lightgreen;
+}
+.stat-items h2{
+	font-weight: bold;
+	font-size: 25px;
+	color: darkorange;
+}
+.stat-items p{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.testimonials{
+	padding: 40px 0;
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-family: Times New Romans;
+
+}
+.inner{
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0 20px;
+}
+.border{
+	width: 160px;
+	height: 5px;
+	background-color: grey;
+	margin: 26px auto;
+}
+.col{
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	height: 200px;
+	display: inline-block;
+}
+.row{
+	content: "";
+	display: flex;
+	clear: both;
+	list-style: inline;
+}
+.testimonial{
+	background-color: grey;
+	padding: 50px;
+}
+.testimonial img{
+	border-radius: 50%;
+
+}
+.name{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 0 20px;
+}
+@media screen and(max-width: 600px){
+	.col{
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+.nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	float: left;
+	text-align: left;
+}
+.navbar-nav li a:hover{
+	color: red;
+
+}
+.navbar{
+	background-color: white;
+}
+.navbar-toggler{
+	border:none;
+}
+.nav-link{
+	color: purple;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.cover{
+	margin-top: 150px;
+}
+.promotion{
+	background:url('images/apple.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 15px;
+	height: 150px;
+
+}
+.price{
+	font-family: Times New Romans;
+	padding: 40px 0;
+	background-color: white;
+	text-underline-position: under;
+}
+.footer-info h4{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: blue;
+	padding: 10px;
+
+}
+.footer-top .footer-newsletter input[type='email']{
+	border:2px solid grey;
+	padding: 6px 8px;
+	width: 65%;
+}
+.footer-top .footer-newsletter input[type='submit']{
+	background-color: yellow;
+	border:0;
+	width: 35%;
+	padding: 6px 0;
+	text-align: center;
+	color: red;
+	transition: 0.3s;
+	cursor: pointer;
+
+}
+.footer-top .footer-newsletter input[type='submit']:hover{
+	background-color: yellow;
+}
+.copyright{
+	text-align: center;
+	padding: 30px;
+
+}
+.footer-links ul li{
+	padding: 10;
+
+}
+ul li{
+	list-style: none;
+}
+
+.credits{
+	text-align: center;
+	font-size: 13px;
+	color: grey;
+}
+.single-price{
+	margin: 10px auto;
+	display: inline;
+	float: left;
+	width: 100%;
+	background-color: white;
+	transition: 0.5s;
+}
+.single-price:hover{
+	box-shadow: 0 2px 20px black;
+
+}
+.price-head{
+	background-color: purple;
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 10px 5px;
+	width: 100%;
+}
+.price-head h2{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-transform: uppercase; 
+}
+.price-head p{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	color: red;
+}
+.price-content{
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0 15px;
+}
+.price-content ul li{
+	border-bottom: 1px solid grey;
+	padding: 15px 10px;
+	list-style: none;
+}
+.footer-top{
+	background-color: grey;
+	font-family: Times New Romans;
+	text-decoration-color: white;
+	padding:50px;
+}
+ul li:last-child{
+	border:none;
+}
+.fa-check-square{
+	color: green;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.fa-times-square{
+	color: red;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.price-button{
+	display: inline;
+	float: left;
+	padding: 15px 15px 30px;
+	text-align: center;
+	width: 100%;
+}
+.buy-btn{
+	background-color: red;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 18px;
+	padding: 15px 50px;
+	transition: 0.5s;
+}
+.buy-btn:hover{
+	border-color: 1px solid white;
+	background-color: orange;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
